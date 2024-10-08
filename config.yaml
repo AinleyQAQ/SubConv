@@ -69,8 +69,6 @@ RULESET:
   - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Apple.list
 - - 📲 电报消息
   - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Telegram.list
-- - 🎶 网易音乐
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/NetEaseMusic.list
 - - 🎶 Spotify
   - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Spotify.list
 - - 🎮 游戏平台
@@ -87,12 +85,8 @@ RULESET:
   - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/YouTube.list
 - - 🎥 奈飞视频
   - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Netflix.list
-- - 📺 巴哈姆特
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Bahamut.list
-- - 📺 哔哩哔哩
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/BilibiliHMT.list
-- - 📺 哔哩哔哩
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Bilibili.list
+- - 🎬 Emby影音
+  - https://raw.githubusercontent.com/AinleyQAQ/rule/master/Emby.list
 - - 🌏 国内媒体
   - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaMedia.list
 - - 🌍 国外媒体
@@ -135,12 +129,9 @@ CUSTOM_PROXY_GROUP:
 - name: 🎥 奈飞视频
   type: select
   prior: PROXY
-- name: 📺 巴哈姆特
+- name: 🎬 Emby影音
   type: select
   prior: PROXY
-- name: 📺 哔哩哔哩
-  type: select
-  prior: DIRECT
 - name: 🌍 国外媒体
   type: select
   prior: PROXY
@@ -166,9 +157,6 @@ CUSTOM_PROXY_GROUP:
   type: select
   prior: DIRECT
 - name: 🎮 游戏平台
-  type: select
-  prior: DIRECT
-- name: 🎶 网易音乐
   type: select
   prior: DIRECT
 - name: 🎶 Spotify
