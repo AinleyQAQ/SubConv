@@ -114,9 +114,6 @@ CUSTOM_PROXY_GROUP:
   type: select
   manual: true
   rule: false
-- name: 🔯 故障转移
-  type: fallback
-  rule: false
 - name: 🤖 ChatBot
   type: select
   prior: PROXY
